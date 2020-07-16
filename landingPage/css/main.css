@@ -1,0 +1,201 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  overflow-y: hidden;
+  color: #AFAFAF;
+}
+
+.bgImage {
+  width: 65%;
+  height: 100vh;
+  background: transparent url('../img/bg.png') no-repeat no-repeat;
+  background-size: cover;
+}
+
+.sideContent {
+  width: 35%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 70px 30px 30px;
+  position: relative;
+}
+
+.buttonPosition {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+h1, p {
+  font-size: 22px;
+  font-weight: normal;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 50px;
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+  margin-bottom: 50px;
+}
+
+li p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.logoButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoButtonContainer img {
+  width: 220px;
+  height: 100%;
+}
+
+.logoButtonContainer img.imgSmaller {
+  width: 170px;
+  height: 100%;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: rgb(15, 56, 126);
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color linear .35s;
+}
+
+.btn:hover {
+  background-color: rgb(10, 40, 91);
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid rgb(15, 56, 126);
+  color: rgb(15, 56, 126);
+  padding: 6px 12px;
+  font-size: 14px;
+  transition: color linear .35s, border-color linear .35s;
+}
+
+.btn.outline:hover {
+  background: transparent;
+  color: #7B7A7A;
+  border-color: #7B7A7A;
+}
+
+
+@media only screen and (max-width : 767px ) {
+ .sideContent {
+   width: 80%;
+   padding: 70px 10px 30px;
+ }
+
+ h1, p {
+   font-size: 17px;
+ }
+
+ li p {
+   font-size: 14px;
+ }
+
+ .btn {
+   margin-top: 15px;
+   font-size: 15px;
+   padding: 8px 15px;
+ }
+
+ .bgImage {
+   width: 20%;
+ }
+
+ .logoButtonContainer {
+   flex-wrap: wrap;
+ }
+}
+
+@media only screen and (min-width : 768px) {
+ .sideContent {
+   width: 65%;
+ }
+
+ .bgImage {
+   width: 35%;
+ }
+}
+
+@media only screen and (min-width : 1224px) {
+ .sideContent {
+   width: 45%;
+ }
+
+ .bgImage {
+   width: 55%;
+ }
+}

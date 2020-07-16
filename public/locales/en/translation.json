@@ -1,0 +1,47 @@
+{
+  "HeaderTitle": "Observatory",
+  "HeaderSubTitle": "Monitoring and benchmarking energy start-ups in Europe and the world",
+
+  "CompanyInformation": "Company Information",
+  "InitialQuestion1": "1. Name of the company",
+  "InitialQuestion2": "2. Source of business ida",
+  "InitialQuestion3": "3. Activity (short description of your activities)",
+  "InitialQuestion4": "4. Number of co-founders",
+  "InitialQuestion5": "5. Incorporated in (year)",
+  "InitialQuestion6": "6. Country in which the company is registered",
+  "InitialQuestion7": "Incubation/acceleration programme/institution (if any)",
+  "InitialQuestion8": "Website URL",
+  "InitialQuestionPlaceholder41": "Age (optional)",
+  "InitialQuestionPlaceholder42": "Gender (optional)",
+  "InitialQuestionPlaceholder71": "Incubation/acceleration programme name",
+  "InitialQuestionPlaceholder72": "Years in the incubator",
+  "InitialQuestionSubmitButton": "NEXT",
+
+  "en": "English",
+  "es": "Spanish",
+
+  "Dollar": "US Dollar ($)",
+  "Euro": "Euro (€)",
+  "PolandCurrency": "Poland Zloty (zł)",
+  "SwedenCurrency": "Sweden Krona (kr)",
+
+  "CompanyStatus": "Company Status",
+  "EconomicGrowth": "Economic Growth",
+  "Financing": "Financing",
+  "IntellectualProperty": "Intellectual Property",
+  "EnergyChallenges": "Energy Challenges",
+
+  "SelectLanguage": "Current Language",
+  "SelectCurrency": "Current Currency",
+  "Questionnaire Exercise": "Questionnaire Exercise",
+
+  "Year": "YEAR",
+  "Country": "COUNTRY",
+  "MainQuestion11": "In your opinion in which stage the company is",
+  "MainQuestion12": "Number of employees (without founders)",
+  "MainQuestion13": "Countries in which the company operates",
+  "MainQuestion14": "Main Revenue Model",
+  "MainQuestion15": "Activity Sector",
+  "MainQuestion16": "Energy Value Chain / Market Sector",
+  "MainQuestion1_Closing_Year": "STILL OPERATING? CLOSING YEAR"
+}

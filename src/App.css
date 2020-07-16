@@ -1,0 +1,688 @@
+/* ---- LANDING PAGE STYLES ---- */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  position: static !important;
+}
+
+html * {
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.containerLandingPage {
+  display: flex;
+  height: 100vh;
+  color: #AFAFAF;
+  overflow-y: hidden;
+}
+
+.bgImage {
+  width: 65%;
+  height: 100vh;
+  background: transparent url('/bg.png') no-repeat no-repeat;
+  background-size: cover;
+}
+
+.sideContent {
+  width: 35%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 70px 30px 30px;
+  position: relative;
+}
+
+.buttonPosition {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.containerLandingPage h1,
+.containerLandingPage p {
+  font-size: 22px;
+  font-weight: normal;
+  font-weight: 300;
+}
+
+.containerLandingPage ul {
+  margin-top: 50px;
+  list-style: none;
+  padding: 0px;
+}
+
+.containerLandingPage li {
+  margin-bottom: 50px;
+}
+
+.containerLandingPage li p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.logoButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoButtonContainer div {
+  width: 240px !important;
+  height: 88px !important;
+  background-position: center left !important;
+}
+
+.logoButtonContainer div.imgBigger {
+  width: 300px !important;
+  height: 110px !important;
+}
+
+.btn {
+  cursor: pointer !important;
+  padding: 10px 20px !important;
+  background-color: rgb(15, 56, 126) !important;
+  color: white !important;
+  font-size: 16px !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  border-radius: 4px !important;
+  transition: background-color linear .35s !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+}
+
+.btn.btn-medium {
+  font-size: 14px !important;
+  padding: 6px 14px !important;
+}
+
+.btn.btn-white {
+  background-color: white !important;
+  color: #666666 !important;
+  font-weight: 400 !important;
+}
+
+.btn:hover {
+  background-color: rgb(10, 40, 91);
+}
+
+.btn.btn-outline {
+  background: transparent !important;
+  border: 1px solid rgb(15, 56, 126) !important;
+  color: rgb(15, 56, 126) !important;
+  padding: 6px 12px !important;
+  font-size: 14px !important;
+  transition: color linear .35s, border-color linear .35s !important;
+}
+
+.btn.outline:hover {
+  background: transparent;
+  color: #7B7A7A;
+  border-color: #7B7A7A;
+}
+
+
+@media only screen and (max-width : 767px ) {
+ .sideContent {
+   width: 80%;
+   padding: 70px 10px 30px;
+ }
+
+ .containerLandingPage h1,
+ .containerLandingPage p {
+   font-size: 17px;
+ }
+
+ .containerLandingPage li p {
+   font-size: 14px;
+ }
+
+ .containerLandingPage .btn {
+   margin-top: 15px;
+   font-size: 15px;
+   padding: 8px 15px;
+ }
+
+ .bgImage {
+   width: 20%;
+ }
+
+ .logoButtonContainer {
+   flex-wrap: wrap;
+ }
+}
+
+@media only screen and (min-width : 768px) {
+ .sideContent {
+   width: 65%;
+ }
+
+ .bgImage {
+   width: 35%;
+ }
+}
+
+@media only screen and (min-width : 1224px) {
+ .sideContent {
+   width: 45%;
+ }
+
+ .bgImage {
+   width: 55%;
+ }
+}
+
+/* ---- END OF: LANDING PAGE STYLES ---- */
+
+
+
+
+/* ---- APP STYLES ---- */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Popover-tip {
+  background-color: blue;
+  color: blue;
+  border-color: blue;
+}
+
+/* ---- END OF: APP STYLES ---- */
+
+
+
+
+/* ---- NEW DESIGN STYLES ---- */
+
+/* Inputs */
+.inputContainer {
+  border: 1px solid #DDDDDD !important;
+  border-radius: 3px;
+  margin-bottom: 20px !important;
+  padding: 0px !important;
+  position: relative;
+}
+
+.inputContainer > div {
+  /* padding-left: 2px !important; */
+}
+
+.inputContainer input, .inputContainer textarea {
+  border: 0px;
+  padding: 10px 10px 10px 8px !important;
+  background: transparent !important;
+}
+
+.inputContainer input:focus, .inputContainer textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.inputContainer .select {
+  margin-top: -3px;
+}
+
+.inputContainer .select span {
+  display: none;
+}
+
+.inputContainer .select > div {
+  border: 0px;
+  box-shadow: none;
+}
+
+.inputContainer .select > div + div {
+  border: 1px solid #E6E6E6;
+  box-shadow: 1px 1px 4px 2px #F7F7F7;
+}
+
+.inputContainer p, .inputContainer .error {
+  /* Error message */
+  margin: 4px 10px;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  font-size: 14px
+}
+
+.inputContainer .label {
+  /* It's also a <p> */
+  position: static;
+  margin: 10px 10px 4px;
+  font-size: 12px;
+  color: #858b9a;
+  font-weight: 400;
+}
+
+.sideBar {
+  padding: 0px 20px 30px !important;
+}
+
+.sideBar .logo {
+  width: 200px !important;
+  height: 80px !important;
+  background-position: center center !important;
+}
+
+.sideBar p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #505050;
+}
+
+.sideBar hr {
+  border-bottom: 0;
+}
+
+.sideBar button {
+  text-transform: none;
+  padding: 15px 10px;
+}
+
+.sideBar button span {
+  text-align: left;
+}
+
+.sideBar .inputContainer {
+  border: 0 !important;
+  position: static;
+}
+
+.isSelected span {
+  color: #1B468F;
+}
+
+
+.surveyFooter .btn {
+  padding: 5px 40px !important;
+  margin-right: 15px;
+}
+
+
+.surveyContainer p.sectionDividerText {
+  padding: 15px 10px 0;
+  font-weight: 500;
+}
+
+.surveyContainer input {
+  height: 41px;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ddd;
+  padding: 10px;
+}
+
+.surveyContainer input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.surveyContainer input:disabled, .surveyContainer textarea:disabled {
+  background-color: hsl(0,0%,95%);
+}
+
+.surveyContainer .select {
+  margin-bottom: 10px;
+}
+
+.surveyContainer .select span {
+  display: none;
+}
+
+.surveyContainer .select > div {
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.surveyContainer .select > div > div {
+  height: 40px;
+}
+
+.surveyContainer .select > div + div {
+  border: 1px solid #E6E6E6;
+  box-shadow: 1px 1px 4px 2px #F7F7F7;
+  height: auto !important;
+}
+
+.surveyContainer .select > div + div > div {
+  height: auto !important;
+}
+
+.surveyContainer button {
+  box-shadow: none;
+}
+
+.radioButtonContainer {
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.radioButtonContainer p {
+  font-size: 12px;
+  color: #858b9a;
+}
+
+.radioButtonContainer p.error {
+  color: #f44336;
+}
+
+.radioButtonContainer > div p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+}
+
+.loginContainer {
+  margin-top: -80px;
+}
+
+
+.topBar p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.topBar button {
+  box-shadow: none !important;
+  margin-left: 30px !important;
+}
+
+.ReactTable {
+  border-radius: 5px;
+}
+
+.ReactTable .rt-thead.-header {
+  box-shadow: none !important;
+  border-bottom: 2px solid #1B468F;
+}
+
+.ReactTable .rt-thead .rt-tr p,
+.ReactTable .rt-thead .rt-tr span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 5px;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc,
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: none !important;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc p,
+.ReactTable .rt-thead .rt-td.-sort-desc p,
+.ReactTable .rt-thead .rt-th.-sort-desc span,
+.ReactTable .rt-thead .rt-td.-sort-desc span,
+.ReactTable .rt-thead .rt-th.-sort-asc p,
+.ReactTable .rt-thead .rt-td.-sort-asc p,
+.ReactTable .rt-thead .rt-th.-sort-asc span,
+.ReactTable .rt-thead .rt-td.-sort-asc span {
+  color: #9AC740;
+}
+
+.ReactTable .rt-td {
+  height: 55px !important
+}
+
+.ReactTable .rt-td a {
+  color: #1B468F;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.ReactTable .rt-td span,
+.ReactTable .rt-td p {
+  opacity: .7;
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.ReactTable .rt-td button {
+  box-shadow: none;
+}
+
+.ReactTable .rt-td button span {
+  padding: 0;
+}
+
+.ReactTable .-pagination {
+  box-shadow: none !important;
+  border-top: 2px solid #1B468F !important;
+}
+
+.ReactTable .-pagination .-btn {
+  padding: 10px 0px !important;
+  height: auto !important;
+  width: 50% !important;
+  margin: 15px auto;
+  font-size: 14px !important;
+  color: #1B468F !important;
+}
+
+.ReactTable .-pagination .-btn p {
+  font-size: 14px !important;
+  padding: 0;
+  color: #1B468F;
+}
+
+.ReactTable .-pagination span {
+  font-size: 13px;
+  color: #666;
+}
+
+.ReactTable .inputContainer {
+  margin: 8px 0 !important;
+}
+
+.ReactTable input {
+  border: 0 !important;
+  width: 100% !important;
+  font-size: 14px !important;
+}
+
+
+.tabsWrapper div > span {
+  background-color: #9AC740;
+}
+
+.tabsWrapper span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 5px;
+  color: #555555;
+  text-transform: none;
+}
+
+.companyInfo {
+  display: flex;
+  flex-wrap: wrap !important;
+}
+
+.labelValue {
+  width: 30%;
+  margin: 10px 10px 20px;
+}
+
+.labelValue label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.labelValue p {
+  font-size: 16px;
+}
+
+
+.modalContainer input {
+  border: 0 !important;
+  width: 100% !important;
+  font-size: 14px !important;
+}
+
+.modalContainer .inputContainer {
+  border: 0 !important;
+}
+
+.modalContainer .inputContainer input,
+.modalContainer .inputContainer textarea {
+  background: white !important;
+}
+
+.modalContainer button {
+  box-shadow: none !important
+}
+
+.logoReport {
+  background-position: center !important;
+}
+
+
+.containerPolicy {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px 150px 60px;
+}
+
+.containerPolicy h1 {
+  color: rgb(15, 56, 126) !important;
+}
+
+.containerPolicy p {
+  line-height: 26px;
+  opacity: .8
+}
+
+.containerPolicy ul li {
+  margin-bottom: 10px;
+  opacity: .8
+}
+
+.containerPolicy a {
+  color: rgb(15, 56, 126) !important;
+}
+
+.linkToPolicy {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(15, 56, 126) !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+}
+
+
+/* Utilities */
+.u-mb-medium {
+  margin-bottom: 30px !important;
+}
+
+.u-ml-15 {
+  margin-left: 15px !important;
+}
+
+
+#google_translate_element {
+  padding: 15px 40px;
+  background: rgb(242, 242, 242)
+}
+
+#google_translate_element.surveyPages {
+  padding: 10px 20px;
+  background: transparent;
+  display: block;
+  position: fixed;
+  bottom: 65px;
+  z-index: 100;
+  max-width: 240px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width : 639px ) {
+  #google_translate_element.surveyPages {
+    background: rgba(185, 183, 183, 0.6);
+    max-width: 100%;
+    width: 100%;
+  }
+}
+/* ---- END OF: NEW DESIGN STYLES ---- */

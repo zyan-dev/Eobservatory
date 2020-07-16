@@ -1,0 +1,47 @@
+{
+  "HeaderTitle": "Observatorio",
+  "HeaderSubTitle": "Monitoreo y evaluación comparativa de empresas de energía en Europa y el mundo",
+  
+  "CompanyInformation": "Información de la compañía",
+  "InitialQuestion1": "1. Nombre de la empresa",
+  "InitialQuestion2": "2. Source of business ida",
+  "InitialQuestion3": "3. Actividad (breve descripción de sus actividades)",
+  "InitialQuestion4": "4. Número de co-fundadores",
+  "InitialQuestion5": "5. Incorporado en (año)",
+  "InitialQuestion6": "6. País en el que está registrada la empresa",
+  "InitialQuestion7": "7. Programa / institución de incubación / aceleración (si corresponde)",
+  "InitialQuestion8": "URL del sitio web",
+  "InitialQuestionPlaceholder41": "Age (opcional)",
+  "InitialQuestionPlaceholder42": "Gender (opcional)",
+  "InitialQuestionPlaceholder71": "Nombre del programa de incubación / aceleración",
+  "InitialQuestionPlaceholder72": "Años en la incubadora",
+  "InitialQuestionSubmitButton": "SIGUIENTE",
+  
+  "en": "Inglesa",
+  "es": "Española",
+
+  "Dollar": "Dólar estadounidense ($)",
+  "Euro": "Euro (€)",
+  "PolandCurrency": "Poland Zloty (PLN)",
+  "SwedenCurrency": "Corona sueca (kr)",
+
+  "CompanyStatus": "Estado de la empresa",
+  "EconomicGrowth": "Crecimiento económico",
+  "Financing": "Financiación",
+  "IntellectualProperty": "Propiedad intelectual",
+  "EnergyChallenges": "Desafíos energéticos",
+
+  "SelectLanguage": "Idioma actual",
+  "SelectCurrency": "Moneda actual",
+  "Questionnaire Exercise": "Ejercicio de cuestionario",
+
+  "Year": "AÑO",
+  "Country": "PAÍS",
+  "MainQuestion11": "En su opinión, en qué etapa se encuentra la empresa",
+  "MainQuestion12": "Número de empleados (sin fundadores)",
+  "MainQuestion13": "Países en los que opera la empresa",
+  "MainQuestion14": "Main Revenue Model",
+  "MainQuestion15": "Sector de actividad",
+  "MainQuestion16": "Energy Value Chain / Market Sector",
+  "MainQuestion1_Closing_Year": "¿AÚN FUNCIONA? CERRANDO EL AÑO"
+}
